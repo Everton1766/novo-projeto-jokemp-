@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://fastly.picsum.photos/id/360/1600/900.jpg?hmac=wLAgw2wGqyqhSt2cZY0VyGw6qwOrxbca9ZjZOQn014g);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    
+
+}
+
+.imagem-resultado {
+    width: 150px;
+    display: none; 
+    margin-bottom: 10px; 
+}
+
+.button {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 40px;
+
+}
+
+button {
+    padding: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+#rock {
+    background-color: #9e6250;
+}
+
+#paper {
+    background-color: #b5c272;
+}
+
+#scissors {
+    background-color: #8be8bd;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.your-score span {
+    color: blue;
+}
+
+.machine-score span {
+    color: red;
+}
